@@ -30,6 +30,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transform-style: preserve-3d;
 }
 .sneaker img {
 	width: 20rem;
@@ -47,6 +48,9 @@ body {
 	position: absolute;
 	border-radius: 50%;
 	z-index: 1;
+}
+.info{
+	transform-style: preserve-3d;
 }
 .info h1 {
 	font-size: 3rem;
